@@ -115,6 +115,10 @@ body {
     width: 100%;
 }
 
+.carta {
+    width: 18rem;
+}
+
 .logo {
     width: 25%;
     display: flex;
@@ -186,6 +190,12 @@ h1 {
 
     .contenido {
         flex-flow: column;
+        justify-content: space-around;
+        justify-items: center;
+    }
+
+    .carta {
+        width: 90%
     }
 
     #avatar{
